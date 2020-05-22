@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+    <link rel="icon" type="image/png" href="./logos/globo.png">
+
+    <link rel="stylesheet" type="text/css" href="./css/estilosProfile.css" />
+    <link rel="stylesheet" type="text/css" href="./css/logoStyle.css" />
+    <link rel="stylesheet" href="./css/estilosHome.css">
+
+
+    <title>Doy</title>
+</head>
+<header>
+    <!-- Menú iconos -->
+    <nav class="navbar navbar-inverse navbar-expand-xl navbar-dark">
+        <div class="navbar-header d-flex col">
+            <a href="about.html"><img class="logoMenu" src="./logos/DoyBlanco.png" alt="logo DoyBlanco"></a>
+        </div>
+        <div class="navbar-header d-flex col">
+            <a href="about.html"><img class="logoClic" src="./logos/doy.png" alt="logo DoyBlanco"></a>
+        </div>
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse"
+            class="navbar-toggle navbar-toggler ml-auto">
+            <span class="navbar-toggler-icon"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        </div>
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+            <form class="navbar-form form-inline">
+                <div class="input-group search-box">
+                    <input type="text" id="search" class="form-control" placeholder="Search here...">
+                    <span class="input-group-addon"><i class="material-icons">&#xE8B6;</i></span>
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right ml-auto">
+                <li class="nav-item active"><a href="home.html" class="nav-link"><i
+                            class="fa fa-home"></i><span>Home</span></a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link"><i
+                            class="fa fa-envelope-o"></i><span>Chat</span></a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link"><i
+                            class="fa fa-users"></i><span>Amigos</span></a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-gift"></i><span>Doy</span></a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link"><i
+                            class="fa fa-star-o"></i><span>Favoritos</span></a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link"><i
+                            class="fa fa-bell"></i><span>Notificaciones</span></a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle user-action"><img
+                            src="./pics/juanesperfil2.jpg" class="avatar" alt="Avatar"> @JuanesMusic <b
+                            class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="perfil.html" class="dropdown-item"><i class="fa fa-user-o"></i>Ver perfil</a></li>
+                        <li><a href="perfil.html" class="dropdown-item"><i class="fa fa-calendar-o"></i> Eventos</a>
+                        </li>
+                        <li><a href="perfil.html" class="dropdown-item"><i class="fa fa-sliders"></i> Configuración</a>
+                        </li>
+                        <li class="divider dropdown-divider"></li>
+                        <li><a href="index.html" class="dropdown-item"><i class="material-icons">&#xE8AC;</i> Cerrar
+                                sesión</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- Fin Menú iconos -->
+<body >
+
+<!--   inicio de cntenido  -->
+ <main class="container profileBody">  
+
+    <div class="col">
+        <div class="row d-flex justify-content-between mt-2  p-0 ">
+
+            <div class="col-md-5 col-sm-12  p-0 m-0  mb-5">
+                <!--  datos usuario  -->
+
+                <div class="ProfilefomularioDatosUsuario p-0 m-0 card">
+                    <!--  fromulaio datos usuario  -->
+
+                    <div class="row d-flex justify-content-around align-items-center mt-2   ">
+                        <div>
+                            <p class="txtUserBold m-0 p-0 d-flex justify-content-center"> Nombre de Usuario</p>
+                            <p class="txtUserSmall m-0 p-0 d-flex justify-content-center"> correo@correoUsuario</p>
+                        </div>
+                        <div>
+                            <a class="" href="#" id="jsBtnDatosFormularioEditar"><img class="profileIcos"
+                                    src="./pics/icoConfiguracion.png"></a>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row d-flex justify-content-around align-items-center m-1">
+                        <div class="profileColIcono">
+                            <a class="ml-2" href="#"><img class="profileIcosSmall" id="jsImgOjoDate"
+                                    src="./pics/IcoOjoIn.png"></a>
+
+                        </div>
+
+                        <div class="profileColTxtGray">
+                            <p class="txtUserLightGray m-0 p-0 ml-3">Fecha Nacimiento</p>
+                        </div>
+                        <div class="profileColTxt">
+                            <p class="txtUserLight m-0 p-0 txtDate">5 Julio 2001</p>
+                        </div>
+                    </div>
+
+
+                    <div class="row d-flex justify-content-around align-items-center m-1">
+                        <div class="profileColIcono">
+
+                            <a class="ml-2" href="#"><img class="profileIcosSmall" id="jsImgOjoTel"
+                                    src="./pics/IcoOjoIn.png"></a>
+
+
+                        </div>
+
+                        <div class="profileColTxtGray">
+                            <p class="txtUserLightGray m-0 p-0 ml-3">Telefono</p>
+                        </div>
+                        <div class="profileColTxt">
+                            <p class="txtUserLight m-0 p-0 txtTel">310 369 2526</p>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex justify-content-around align-items-center m-1">
+                        <div class="profileColIcono">
+
+                            <a class="ml-2" href="#"><img class="profileIcosSmall" id="jsImgOjoOcu"
+                                    src="./pics/IcoOjoIn.png"></a>
+
+
+
+                        </div>
+
+                        <div class="profileColTxtGray">
+                            <p class="txtUserLightGray m-0 p-0 ml-3">Ocupacion</p>
+                        </div>
+                        <div class="profileColTxt">
+                            <p class="txtUserLight m-0 p-0 txtOcu">Periodista</p>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex justify-content-around align-items-center  m-1">
+                        <div class="profileColIcono">
+                            <img class="profileIcosSmall" src="./pics/empty.png" alt="">
+                        </div>
+
+                        <div class="profileColTxtGray">
+                            <p class="txtUserLightGray m-0 p-0 ml-3">Hobbies</p>
+                        </div>
+                        <div class="profileColTxt">
+                            <p class="txtUserSmall m-0 p-0 listaHobbiesIn"></p>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex justify-content-around align-items-center  m-1">
+                        <div class="profileColIcono">
+
+                            <a class="ml-2" href="#"><img class="profileIcosSmall" id="jsImgOjoNal"
+                                    src="./pics/IcoOjoIn.png"></a>
+                        </div>
+
+                        <div class="profileColTxtGray">
+                            <p class="txtUserLightGray m-0 p-0 ml-3">Nacionalidad</p>
+                        </div>
+                        <div class="profileColTxt">
+                            <p class="txtUserLight m-0 p-0 txtNac">Polombia</p>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex justify-content-around align-items-center m-1">
+                        <div class="profileColIcono">
+                            <img class="profileIcosSmall" src="./pics/empty.png" alt="">
+                        </div>
+
+                        <div class="profileColTxtGray">
+                            <p class="txtUserLightGray m-0 p-0 ml-3">Descripcion</p>
+                        </div>
+                        <div class="profileColTxt">
+                            <p class="txtUserLightSmall m-0 p-0">Contrary to popular belief,
+                                Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+                                literature from 45 BC, making it over 2000 years old.</p>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex justify-content-around align-items-center m-1">
+                        <div class="profileColIcono">
+                            <img class="profileIcosSmall" src="./pics/empty.png" alt="">
+                        </div>
+
+                        <div class="profileColTxtGray">
+                            <p class="txtUserLightGray m-0 p-0 ml-3">Por que Doy?</p>
+                        </div>
+                        <div class="profileColTxt">
+                            <p class="txtUserLightSmall m-0 p-0">Contrary to popular belief,
+                                Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+                                literature from 45 BC, making it over 2000 years old.</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                </div> <!--  fromulaio datos usuario  -->
+
+
+                <div class="profilefomularioDatosUsuarioEditar card-body m-0 p-0">
+                    <!--  fromulaio datos usuario  editar  -->
+
+                    <div class="row d-flex justify-content-around align-items-center m-0">
+                        <div>
+                            <p class="txtUserBoldWhite  m-0 p-0 d-flex justify-content-center mt-3"> Nombre de
+                                Usuario</p>
+                            <p class="txtUserSmallWhite  m-0 p-0 d-flex justify-content-center">
+                                correo@correoUsuario</p>
+                        </div>
+
+                    </div>
+                    <hr>
+
+
+                    <div class="row d-flex justify-content-around align-items-center m-3">
+
+
+                        <div class="profileColTxtGray">
+                            <label class="registroLogin txtUserLightWhite">Fecha Nacimiento <span
+                                    class="text-danger">*</span></label>
+                        </div>
+                        <div class="profileColTxt">
+                            <input type="text" class="form-control" id="profileUserNacimiento"
+                                placeholder="dia / mes / año">
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="row d-flex justify-content-around align-items-center m-3">
+
+                        <div class="profileColTxtGray">
+                            <label class="registroLogin txtUserLightWhite">Telefono</label>
+                        </div>
+                        <div class="profileColTxt">
+                            <input type="text" class="form-control" id="profileUserTelefono"
+                                placeholder="+57 333 11 5555">
+                        </div>
+                    </div>
+
+                    <div class="row d-flex justify-content-around align-items-center m-3">
+
+
+                        <div class="profileColTxtGray txtUserLightWhite">
+                            <label class="registroLogin">Ocupacion</label>
+                        </div>
+                        <div class="profileColTxt">
+                            <input type="text" class="form-control" id="profileUserOcupacion" placeholder="">
+
+                        </div>
+                    </div>
+
+
+                    <div class="row d-flex justify-content-end align-items-start  m-3">
+
+                        <div class="profileColTxtGray">
+                            <label class="registroLogin txtUserLightWhite">Hobbies</label>
+                        </div>
+                        <div class="profileColTxt txtUserSmall">
+                            <div>
+                                <select id="selectHobbie" name="hola">
+                                    <option> Escoger Hobbies</option>
+                                </select>
+
+
+
+
+                                <p class="listaHobbies txtUserSmallWhite m-0 p-0 mt-3"> </p>
+                            </div>
+
+                        </div>
+                        <div class="profileColIcono">
+                            <a class="" href="#" id="jsBtnBorrarHobbie"><img class="profileIcos"
+                                    src="./pics/icotrash.png"></a> </div>
+                    </div>
+
+
+                    <div class="row d-flex justify-content-around align-items-center  m-3">
+
+
+                        <div class="profileColTxtGray">
+                            <label class="registroLogin txtUserLightWhite">Nacionalidad</label>
+
+                        </div>
+                        <div class="profileColTxt">
+                            <input type="text" class="form-control" id="profileUserPais" placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="row d-flex justify-content-around align-items-start m-3">
+
+
+                        <div class="profileColTxtGray">
+                            <label class="registroLogin txtUserLightWhite">Descripcion</label>
+
+                        </div>
+                        <div class="profileColTxt">
+                            <textarea class="txtUserSmallLight textareaEstilo" name="textarea" rows="2" cols="25"
+                                id="profileUserDescripcion"></textarea>
+
+                        </div>
+                    </div>
+
+                    <div class="row d-flex justify-content-around align-items-start m-3">
+
+
+                        <div class="profileColTxtGray">
+                            <label class="registroLogin txtUserLightWhite">Por que Doy?</label>
+
+                        </div>
+                        <div class="profileColTxt">
+                            <textarea class="txtUserSmallLight textareaEstilo" name="textarea" rows="2" cols="25"
+                                id="profileUserDoy"></textarea>
+
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row d-flex justify-content-around align-items-center ">
+
+
+
+                        <div class=" d-flex justify-content-center p-3">
+                            <button class="botonLogin" id="jsBtnDatosFormularioGuardar">Guardar</button>
+                        </div>
+
+                    </div>
+
+                </div> <!--  fromulaio datos usuario  editar -->
+
+            </div> <!--  datos usuario  -->
+
+            <div class="col-md-3 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class=" d-flex align-items-end justify-content-center">
+                            <img class="profilePicUser" src="./pics/user.png">
+                            <img class="profileIcoUser" src="./pics/icoCamara.png">
+                        </div>
+
+                        <div class="profileContenedorIcoLinkContrasena mt-4">
+                            <div class="row justify-content-center align-items-center">
+                                <a class="" href="#" id="jsIcoCambioContrasena"><img class="profileIcos"
+                                        src="./pics/icoConfigurarPassword.png"></a>
+                                <a class="txtLink  ml-3" href="#" id="jsLinkCambioContrasena"> cambio contraseña
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="card profileContenedorCambioContrasena  mt-4 ">
+
+                    <div class="card-body">
+                    <div>
+                        <p class="txtProfileTitulo m-0 p-0 mt-2 mb-2 d-flex justify-content-center">cambio de
+                            contrseña</p>
+                    </div>
+                    <div class="p-2">
+                        <form action="" id="formularioCambioCotrasena">
+
+                            <label class="registroLogin">contraseña actual <span
+                                    class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="perfilContrasenaActual" placeholder="">
+
+                            <label class="registroLogin"> contraseña nueva <span
+                                    class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="perfilContrasenaNueva" placeholder="">
+
+                            <label class="registroLogin">confirmar contraseña <span
+                                    class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="perfilConfirmarContrasena" placeholder="">
+
+                            <div class="botonesForm d-flex justify-content-center mt-2">
+                                <button class="botonRegistro" id="jsBtnGuardarCambios">Guardar</button>
+                                <button class="botonIngreso" id="jsBtnCancelarCambios">Cancelar</button><br>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+                </div>
+
+
+
+
+
+                <div class="profileContenedorCambioContrasenaConfirmar  mt-4 card">
+                    <div class="card-body">
+                    <p class="txtProfileTitulo m-0 p-0 mt-2 mb-2 d-flex justify-content-center">cambio exitoso</p>
+
+                    <div class=" d-flex justify-content-center mb-2">
+                        <button class="botonLogin AnchoBtn" id="jsBtnCerrarContContrasena">Cerrar</button>
+                    </div>
+                </div>
+                </div>
+
+                <div class="profileContenedorFollow mt-4  mb-4 card">
+                  
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="h6 text-muted">Seguidores</div>
+                            <div class="h5">5.2342</div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="h6 text-muted">Siguiendo</div>
+                            <div class="h5">6758</div>
+                        </li>
+                       
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-md-3 col-sm-12">
+
+                <div class="row d-flex justify-content-center mb-4">
+
+                    <div class="row  divChat d-flex justify-content-center">
+                        <div class="divContTextChat"></div>
+
+                        <input type="text" class="form-control" id="txtChat" placeholder="└(ツ)┘">
+                        <button class="botonIngreso" id="jsBtnChat">enviar</button>
+                    </div>
+         
+				  
+
+                </div> <!-- -->
+				
+				
+
+
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <div class="card-actions float-right">
+                            <div class="dropdown show">
+                                <a href="#" data-toggle="dropdown" data-display="static">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-more-horizontal align-middle">
+                                        <circle cx="12" cy="12" r="1"></circle>
+                                        <circle cx="19" cy="12" r="1"></circle>
+                                        <circle cx="5" cy="12" r="1"></circle>
+                                    </svg>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" href="amigos.html">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="card-title mb-0">Sugerencias</h5>
+                    </div>
+                    <div class="card-body">
+
+                        <div class="media">
+                            <img src="./pics/marce.jpg" width="56" height="56" class="rounded-circle mr-2"
+                                alt="Marcela Bula">
+                            <div class="media-body">
+                                <p class="my-1"><strong>Marcela Bula</strong></p>
+                                <a class="btn btn-sm btn-outline-primary btn-medium" href="#">Seguir</a>
+                            </div>
+                        </div>
+
+                        <hr class="my-2">
+
+                        <div class="media">
+                            <img src="./pics/jesus.jpg" width="56" height="56" class="rounded-circle mr-2"
+                                alt="Jesús Ropero">
+                            <div class="media-body">
+                                <p class="my-1"><strong>Jesús Ropero</strong></p>
+                                <a class="btn btn-sm btn-outline-primary btn-medium" href="#">Seguir</a>
+                            </div>
+                        </div>
+
+                        <hr class="my-2">
+
+                        <div class="media">
+                            <img src="./pics/hernan.jpg" width="56" height="56" class="rounded-circle mr-2"
+                                alt="Hernáz díaz">
+                            <div class="media-body">
+                                <p class="my-1"><strong>Hernán Díaz</strong></p>
+                                <a class="btn btn-sm btn-outline-primary btn-medium" href="#">Seguir</a>
+                            </div>
+                        </div>
+
+                        <hr class="my-2">
+
+                        <div class="media">
+                            <img src="./pics/fabianv.jpg" width="56" height="56" class="rounded-circle mr-2"
+                                alt="Fabián Valencia">
+                            <div class="media-body">
+                                <p class="my-1"><strong>Fabián Valencia</strong></p>
+                                <a class="btn btn-sm btn-outline-primary btn-medium" href="#">Seguir</a>
+                            </div>
+                        </div>
+
+                        <hr class="my-2">
+                        <div class="media">
+                            <img src="./pics/felipe.jpg" width="56" height="56" class="rounded-circle mr-2"
+                                alt="Andrés Casallas">
+                            <div class="media-body">
+                                <p class="my-1"><strong>Andrés Casallas</strong></p>
+                                <a class="btn btn-sm btn-outline-primary btn-medium" href="#">Seguir</a>
+                            </div>
+                        </div>
+
+                        <hr class="my-2">
+                        <div class="media">
+                            <img src="./pics/fancisco.jpg" width="56" height="56" class="rounded-circle mr-2"
+                                alt="Francisco martínez">
+                            <div class="media-body">
+                                <p class="my-1"><strong>Francisco Martínez</strong></p>
+                                <a class="btn btn-sm btn-outline-primary btn-medium" href="#">Seguir</a>
+                            </div>
+                        </div>
+
+                        <hr class="my-2">
+                        <div class="media">
+                            <img src="./pics/jefry.jpg" width="56" height="56" class="rounded-circle mr-2"
+                                alt="Jefry Guevara">
+                            <div class="media-body">
+                                <p class="my-1"><strong>Jefry Guevara</strong></p>
+                                <a class="btn btn-sm btn-outline-primary btn-medium" href="#">Seguir</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            </div> <!-- -->
+        </div>
+    </div>
+
+
+ </main>
+ <!--   fin  de cntenido  -->
+
+
+    <!--footer starts from here-->
+    <footer class="footer">
+        <div class="container bottom_border">
+            <div class="row">
+                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2"><a class="navbar-brand" href="home.html"><img
+                                class="logo" src="./logos/DoyBlanco.png" alt="logoDoy"></a></h5>
+                    <!--headin5_amrc-->
+                    <div>
+                        <a class="navbar-brand" href="about.html"><img class="logo2"
+                                src="./logos/sixBrainBlanco.png" alt="logoSixBrain"></a>
+                    </div>
+                    <p class="mb10">A un clic de donar.
+
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2"><i class="fa fa-address-book-o"></i> Contáctenos</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li>
+                            <p class="mb10"><i class="fa fa-location-arrow"></i> Calle 79 # 42b - 342. Edificio Capital
+                                Colombia.</p>
+                        </li>
+                        <li>
+                            <p class="mb10"><a href="tel: 304 61500"><i class="fa fa-phone"></i> (+571) 304 61500.</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="mb10"><a href="mailto:sixbrain@gmail.com"><i class="fa fa fa-envelope"></i>
+                                    sixbrain@gmail.com</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="mb10"><a href="https://api.whatsapp.com/send?phone=573046150022"><i
+                                        class="fa fa-whatsapp"></i> +57 3046150022.</a></p>
+                        </li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2"><i class="fa fa-map-marker"></i> Ubícanos en</h5>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.51643521048!2d-74.24823623828992!3d4.648283649633875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1589860042527!5m2!1ses!2sco"
+                        width="250" height="250" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0">
+                    </iframe>
+
+                    <!--headin5_amrc-->
+                    <!--footer_ul_amrc ends here-->
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2"><i class="fa fa-hand-o-up"></i> Suscríbete</h5>
+                    <form class="text-center p-3" action="#!">
+                        <p class="mb10">Empieza a disfrutar de la red social más divertida y solidaria.</p>
+                        <!-- Email -->
+                        <input type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4"
+                            placeholder="E-mail">
+                        <!-- Sign in button -->
+                        <button class="btn btn-info btn-block btn-lila" type="submit">UNIRSE</button>
+
+
+                    </form>
+                    <!-- Default form subscription -->
+                    <!--footer_ul2_amrc ends here-->
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ul class="foote_bottom_ul_amrc">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">Nosotros</a></li>
+                <li><a href="doy.html">DOY</a></li>
+                <li><a href="about.html">Privacidad</a></li>
+                <li><a href="about.html">Términos y condiciones</a></li>
+                <li><a href="about.html">Contacto</a></li>
+
+            </ul>
+            <!--foote_bottom_ul_amrc ends here-->
+            <p class="text-center">Copyright @2020 | Designed with <a href="about.html"><i class="fa fa-heart-o"></i> by
+                    Sixbrain</a></p>
+
+            <ul class="social_footer_ul">
+                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <!--social_footer_ul ends here-->
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/registroValidarLogin.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
