@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.login{
+    background-color: #48126a; 
+    background-repeat: no-repeat;
+    background-size: 110%;
+    overflow:hidden; 
+}
+
+.formLogin{
+    margin-top: 30px;
+    font-family: Roboto, 300;
+    color: #ffff;
+    
+}
+
+.columnas{
+    border-radius: 3px;
+    margin: 15px;
+    padding: 30px;
+    
+}
+
+.botonRegistro{
+    padding: 5px;
+    background-color:#8f258f;
+    color: #ffff;
+    border-radius: 8px;
+    border: none;
+    transition: all .4s ease-in-out;
+    outline: none !important; 
+}
+.botonRegistro:hover {
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+}
+.botonIngreso{
+    padding: 5px;
+    background-color:#ff8cff;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    transition: all .4s ease-in-out;
+    outline: none !important;
+}
+.botonIngreso:hover {
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+}
+
+.botonLogin{
+    padding: 5px;
+    background-color:#8f258f;
+    color: #ffff;
+    border-radius: 8px;
+    border: none;
+    transition: all .4s ease-in-out;
+    outline: none;
+    width: 100%;
+}
+
+.botonLogin:hover {
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+}
+
+.botonFinal{
+    padding: 5px;
+    background-color:#8f258f;
+    color: #ffff;
+    border-radius: 8px;
+    border: none;
+    transition: all .4s ease-in-out;
+    margin-top: 1rem;
+    outline: none;
+    width: 100%;
+}
+
+.botonFinal:hover {
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+}
+

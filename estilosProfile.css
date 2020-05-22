@@ -1,0 +1,398 @@
+
+.profileBody{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+}
+.profileHeader{
+    background-color: #8f258f;
+    border-bottom: 5px solid #070147;
+    height: 50px;
+
+}
+
+.profileImgHeader{
+    height: 90%;
+    
+}
+
+.profileDatosUsuario, .profilePic , .profileNews {
+ 
+    background-color: white;
+   
+   
+
+}
+
+.profileNews{
+    border-top: 5px solid #8f258f;
+
+  }
+
+.profileDatosUsuario{
+     border-top: 5px solid #8f258f;
+
+   }
+.profilefomularioDatosUsuarioEditar{
+   background-color: #8f258f; 
+   background-image: url(../pics/fondo.jpg);   
+   background-repeat: no-repeat;
+   /*background-size: 100%;*/
+
+}
+
+
+.profileContenedorPicUser {
+    width: 100%;
+    background-color: #8f258f;
+    
+}
+
+.profileBgPicUser{
+    
+    width: 100%;
+    background-color: #ffffff;
+    
+}
+
+.profilePicUser {
+    width: 75%;
+    border-radius: 100%;
+}
+.profileIcoUser{
+    height: 25px;
+
+}
+
+.profileIcos{
+    height: 25px;
+
+}
+
+
+.profileContenedorFollow{
+    width: 100%;
+    background-color: #ffffff;
+    /* border-top: 5px solid #8f258f; */
+
+}
+
+
+.profileContenedorCambioContrasena{
+    width: 100%;
+    background-color: #ffffff;
+    /* border-top: 5px solid #8f258f; */
+
+}
+
+.profileContenedorCambioContrasenaConfirmar{
+    width: 100%;
+    background-color: #ffffff;
+ /*    border-top: 5px solid #8f258f; */
+
+}
+
+
+.txtFollowLight {
+    font-size: 1.3rem;
+    color:  #8f258f;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.txtFollowBold{
+
+     font-size: 1.3rem;
+    color:  #8f258f;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.txtLink{
+    text-decoration: none;
+    font-size: .9rem;
+    color:  #8f258f;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.txtProfileTitulo{
+    font-size: 1rem;
+    color:  #8f258f;
+    font-weight: 500;
+    text-transform: uppercase;
+
+
+}
+
+.txtLink:hover{
+    text-decoration: none;
+    color:   #070147;
+   
+
+}
+
+.contenedorIn{
+    display: block;
+}
+
+.contenedorOut {
+    display: none;
+}
+
+
+.profileBtn{
+    background-color: #070147;
+    border-radius: 20px;
+    margin-left: 10px;
+  
+    height: 30px;
+
+    color: white;
+    border-style: outset;
+
+
+  }
+  .profileBtn:hover{
+    background-color: #481264;
+  }
+
+  .perfilTxtForm{
+    font-size: .8rem;
+    color:  #868386;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+
+  }
+
+  .perfilInfput{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #070147;
+    /*  border-style: outset; 
+    border-color: #8f258f;*/
+    border-style: none;
+    text-align: center;
+  }
+
+  /*    */   
+
+  .txtUserLight {
+    font-size:1rem;
+    color:  #000000;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.txtUserLightSmall {
+    font-size:0.8rem;
+    color:  #000000;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.txtUserLightGray{
+    font-size:1rem;
+    color:  #757575;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.txtUserLightWhite{
+    font-size:1rem;
+    color:  #ffffff;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.txtUserBold {
+    font-size:1rem;
+    color:  #000000;
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+.txtUserBoldWhite {
+    font-size:1rem;
+    color:  #ffffff;
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+
+
+.txtUserSmall {
+    font-size:.8rem;
+    color:  #000000;
+    font-weight: 500;
+    font-style: italic;
+   
+
+}
+
+.txtUserSmallLight {
+    font-size:.8rem;
+    color:  #000000;
+    font-weight: 300;
+    font-style: italic;
+   
+
+}
+
+
+.textareaEstilo{
+    border-radius: 5px;
+}
+
+.txtUserSmallWhite {
+    font-size:.8rem;
+    color:  #ffffff;
+    font-weight: 500;
+    font-style: italic;
+   
+
+}
+
+.profileIcosSmall{
+    height: 20px;
+}
+.profileColIcono{
+    width: 5%;
+}
+
+.profileColTxtGray{
+    width: 45%;
+}
+
+.profileColTxt{
+    width: 50%;
+}
+
+.AnchoBtn{
+   width: 100%; 
+   height: 60px;
+}
+
+
+.txtSubrauado{
+    text-decoration-line: line-through;
+}
+
+
+.divFallow {
+    background-color: #ffffff;
+     height: 50px;
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px 1px;
+    border-color: #cccccc;
+    
+
+
+}
+
+
+
+.profilePicUserFallow{
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+.txtUserBoldFallow{
+    font-size:1rem;
+    color:   #8f258f;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+
+.txtUserSmallFallow {
+    font-size:.8rem;
+    color:   #8f258f;
+    font-weight: 300;
+    font-style: italic;
+   
+}
+
+
+.divChat {
+    /* background-color: #070147;*/ 
+    background-color: #8f258f;
+     height: 300px;
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 5px;
+
+
+}
+
+.divContTextChat {
+    background-color: #ffffff;
+     height: 70%;
+    width: 95%;
+    margin-top: 5px;
+    border-radius: 10px;
+    overflow: auto;
+    padding: 0px 15px;
+
+}
+
+.txtChat {
+    font-size:.7rem;
+    color:   #070007;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.txtChatRta {
+    font-size:.7rem;
+    color:   #ff0000;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+
+/* ----------------- MEDIA QUERIES -------------------------*/ 
+
+
+@media screen and (max-width:768px) {
+
+
+    .profilePicUser {
+        width: 25%;
+        
+ 
+    }
+    .profileIcoUser{
+   
+        top: 140px;
+  
+    }
+
+    .profileContenedorPicUser {
+   
+        height: 165px;
+    }
+
+
+
+
+}
